@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Guess Number</title>
+    <style>
+        body {
+            background-color: #E48586;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .card {
+            background-color: #FDE5EC;
+            border-radius: 4px;
+            box-shadow: 0px 4px 8px rgba(234, 233, 233, 0.2);
+            padding: 10px;
+            width: 600px;
+            box-sizing: border-box;
+        }
+
+        #heading {
+            background-color: #FCBAAD;
+            color: black;
+            font-weight: 300;
+            text-align: center;
+        }
+
+        #desc {
+            text-align: center;
+        }
+        .form {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .form button{
+            display: block;
+            margin: 0 auto; 
+            font-size: medium;
+            font-weight: 300;
+            background-color: #916DB3;
+            color: aliceblue;
+            border-color: black;
+            height: 1cm;
+        }
+        
+        .form input[type="text"] {
+            display: block;
+            margin: 0 auto;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-weight: 300;
+
+        }
+
+        .form label{
+            text-align: center;
+            font-weight: 300;
+            color: #916DB3;
+            margin-bottom: 5px;
+            font: 20px;
+        }
+
+
+        .result {
+
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div id="heading">
+            <h1>Welcome to Number Guessing Game!</h1>
+        </div>
+        <br>
+
+        <div id="desc">
+            <h3> <p>Try and guess a random number between 1 - 100. <br><br>
+            You have a total of 10 attempts to guess the right number.</p></h3>
+        </div>
+        <br>
+
+        <form class="form">
+            <h1><label for="guessnumber"><b>Guess a number !</b></label></h1><br>
+            <input type="text" placeholder="Number" id="guessfield">
+            <br>
+            <button type="submit" id="submit">Submit Number</button>
+        </form>
+        <br><br>
+
+        <div class="result">
+            <h3>Previous Guess: <span class="guesses"></span></h3>
+            <h3>Guesses Remaining: <span class="lastresult">10</span></h3><br>
+            <p class="lowhigh"></p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
