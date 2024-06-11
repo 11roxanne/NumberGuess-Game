@@ -1,12 +1,14 @@
 # NumberGuess-Game
 This project is a simple and fun number-guessing game developed using HTML, CSS, and JavaScript. The game challenges players to guess a randomly generated number within a specified range. With an intuitive and visually appealing interface, it's an engaging way for users to test their guessing skills and enjoy a quick game.
 
-Technologies Used
+# Technologies Used
+
 HTML: For the basic structure of the game interface.
 CSS: For styling the game and enhancing its visual appeal.
 JavaScript: For the game logic and interactivity.
 
-How to Play
+# How to Play
+
 Start the Game: Open the index.html file in your web browser.
 Guess the Number: Enter your guess in the input field provided.
 Submit Your Guess: Click the "Guess" button to submit your guess.
